@@ -1,0 +1,224 @@
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    background:black;
+    color: white;
+    padding-top: 20px;
+    border-bottom: red 1px solid;
+}
+header a{
+    color:blue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+    
+}
+header #branding{
+    float: left;
+
+}
+header #branding h1{
+    margin:0;
+}
+
+header nav{
+    float: right;
+    margin-bottom: 10px;
+}
+header .current a{
+    color: white;
+    font-weight: bold;
+}
+header a:hover{
+    color: white;
+    font-weight: bold;
+}
+#showcase{
+    background: url(/img/sports1.jpg);
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    display: block;
+    margin-top: -30px;
+}
+.contain h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 200px;
+}
+.contain p{
+    font-size: 20px;
+    margin-right: 500px;
+    color: white;
+}
+
+/* boxes */
+
+#boxes{
+    height: 50vh;
+    background:url(/img/pic1.jpg);
+    background-size: 400px;
+    background-position: 420px;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+
+}
+
+.box p{
+    display: grid;
+    grid-template-columns: 300px;
+    float: left;
+    margin-left: 15px;
+    line-height: 25px;
+}
+
+.box1 p{
+    display: grid;
+    grid-template-columns: 300px;
+    float: right;
+    margin-right: 40px;
+    line-height: 25px;
+}
+.head h1{
+    padding-top: 10px;
+}
+
+.box12{ height: 50vh;
+    background:url(/img/pic5.jpg);
+    background-size: 400px;
+    background-position: 5px;
+    background-repeat: no-repeat;
+    
+}
+
+.box13{ height: 50vh;
+    background:url(/img/pic6.jpg);
+    background-size: 400px;
+    background-position: 420px;
+    background-repeat: no-repeat;
+    margin-top: -300px;
+    
+}
+.box13 p{
+    display: grid;
+    grid-template-columns: 300px;
+    float: left;
+    margin-left: 900px;
+    line-height: 25px;
+}
+
+.box14{ height: 50vh;
+    background:url(/img/sports1.jpg);
+    background-size: 400px;
+    background-position: 420px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+.box15{ height: 50vh;
+    background:url(/img/pic3.jpg);
+    background-size: 400px;
+    background-position: 850px;
+    margin-top: -305px;
+    background-repeat: no-repeat;
+    
+}
+.box15 p{
+    display: grid;
+    grid-template-columns: 300px;
+    float: left;
+    margin-left: 15px;
+    line-height: 25px;
+}
+
+/* footer*/
+
+footer{
+    padding: 20px;
+    margin-top: 70px;
+    color: white;
+    background-color: darkcyan;
+    text-align: center;
+}
+.service{
+    border: teal solid 2px;
+    margin-top: 20px;
+    text-align: center;
+    background: url(/img/pic09.jpg);
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-gap: 10px;
+}
+.service h1{
+    text-align: center;
+    color: darkblue;
+}
+
+.foot h1{
+    float: left;
+    margin-top: 5px;
+}
+.button_1{
+    color: red;
+    float: left;
+    margin-top: 100px;
+    margin-left: -120px;
+}
+.foot input[type="email"]{
+    float: left;
+    margin-top: 100px;
+    margin-left: -300px;
+}
+.foot1 p{
+    display: grid;
+    grid-template-columns: 300px;
+    margin-left: 850px;
+}
+.link{
+    margin-top: -150px;
+}
+.link h1{
+    margin-right: 280px;
+}
+a{
+    text-decoration: none;
+
+}
+.link p{
+    margin-top: 50px;
+    background: blue;
+    padding: 20px;
+}
+
+/*contact us*/
+
+.about{
+    display: grid;
+    grid-template-columns: 600px;
+    margin-top: 20px;
+    padding: 50px;
+}
+#sidebar{
+    float: right;
+    margin-right: 40px;
+    margin-top: -350px;
+}
+#sidebar input[type="text1"]{
+    padding: 40px;
+    width: 80%;
+
+}    
